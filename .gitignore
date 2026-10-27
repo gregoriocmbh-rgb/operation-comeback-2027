@@ -1,0 +1,38 @@
+# Operation Comeback 2027
+# Git Ignore Rules
+
+# Operating system files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.log
+*~
+
+# Sensitive files and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+credentials.json
+secrets.json
+
+# Obsidian local configuration
+.obsidian/
+
+# Editor settings
+.vscode/
+.idea/
+
+# Python cache
+__pycache__/
+*.pyc
