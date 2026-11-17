@@ -16,20 +16,42 @@ Welcome to my technical portfolio, documenting hands-on network administration, 
 
 ## Featured Lab Projects
 
-### INC-L3-01 - HQ Inter-VLAN Connectivity Failure
+### INC-L3-01 — HQ Inter-VLAN Connectivity Failure
 
-A structured troubleshooting investigation involving inter-VLAN connectivity in a simulated enterprise network.
+**Category:** Network Troubleshooting | Incident Management
 
-Key activities include:
+A structured investigation of an inter-VLAN connectivity failure in a simulated Cisco enterprise network.
 
-- Investigating network connectivity failures.
-- Reviewing VLAN and Layer 3 network configurations.
-- Identifying and documenting the root cause.
-- Validating connectivity after corrective actions.
-- Maintaining technical incident documentation.
+**Key activities:**
+- Investigated Layer 2 and Layer 3 connectivity.
+- Analyzed VLAN and routing configurations.
+- Identified and documented the root cause.
+- Implemented corrective actions and validated connectivity.
+- Documented the incident using a structured troubleshooting methodology.
 
-**Documentation status:** Being prepared for public release.
+**Skills demonstrated:** Cisco IOS, VLANs, inter-VLAN routing, troubleshooting, root cause analysis, and technical documentation.
 
+**[View Technical Report](labs/INC-L3-01/README.md)**
+
+---
+
+### CHG-NET-001 — Implement Default Routing to Simulated ISP
+
+**Category:** Network Implementation | Change Management
+
+A planned network change in Cisco Modeling Labs (CML), implementing default routing between a headquarters network, a branch network, and a simulated ISP.
+
+**Key activities:**
+- Documented the change scope, implementation steps, and validation criteria.
+- Implemented static default routes and ISP return routes.
+- Verified routing tables across three Cisco routers.
+- Tested connectivity between HQ, Branch, and the simulated ISP.
+- Performed regression tests to confirm existing connectivity remained operational.
+- Produced a Change Management Record and a Network Implementation Guide supported by technical evidence.
+
+**Skills demonstrated:** Cisco IOS, static routing, default routes, change management, implementation planning, connectivity validation, and technical documentation.
+
+**[View Technical Report](labs/CHG-NET-001/README.md)**
 ## Repository Structure
 
 This repository will be organized into dedicated sections for:
